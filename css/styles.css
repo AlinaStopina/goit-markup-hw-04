@@ -132,11 +132,13 @@ body {
 .section-one {
   background-color: var(--dark-grey);
   padding: 188px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient
+      (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(C:\Users\Admin\Documents\GitHub\goit-markup-hw-04\images\hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .section-one-title {
